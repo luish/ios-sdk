@@ -11,7 +11,7 @@
  ********************************************************************
 
  function: #ifdef jail to whip a few platforms into the UNIX ideal.
- last mod: $Id: os_types.h 17712 2010-12-03 17:10:02Z xiphmont $
+ last mod: $Id: os_types.h 19098 2014-02-26 19:06:45Z giles $
 
  ********************************************************************/
 #ifndef _OS_TYPES_H
@@ -24,7 +24,7 @@
 #define _ogg_realloc realloc
 #define _ogg_free    free
 
-#if defined(_WIN32) 
+#if defined(_WIN32)
 
 #  if defined(__CYGWIN__)
 #    include <stdint.h>
@@ -68,7 +68,7 @@
 
 #elif (defined(__APPLE__) && defined(__MACH__)) /* MacOS X Framework build */
 
-#  include <inttypes.h>
+//#  include <inttypes.h>
    typedef int16_t ogg_int16_t;
    typedef uint16_t ogg_uint16_t;
    typedef int32_t ogg_int32_t;

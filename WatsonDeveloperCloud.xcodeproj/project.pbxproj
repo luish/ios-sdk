@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B16E7BC1CA2F9A500CC1F98 /* config_types.h.in in Resources */ = {isa = PBXBuildFile; fileRef = 4B16E7B91CA2F9A500CC1F98 /* config_types.h.in */; };
+		4B16E7BE1CA2F9A500CC1F98 /* os_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B16E7BB1CA2F9A500CC1F98 /* os_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B16E7BF1CA2F9E400CC1F98 /* ogg.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B16E7BA1CA2F9A500CC1F98 /* ogg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B16E7C31CA2FA3D00CC1F98 /* opus_header.c in Headers */ = {isa = PBXBuildFile; fileRef = 7A0F96551C232B96004C01C0 /* opus_header.c */; };
+		4B16E7C51CA3061C00CC1F98 /* config_types.h.in in Headers */ = {isa = PBXBuildFile; fileRef = 4B16E7B91CA2F9A500CC1F98 /* config_types.h.in */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A00FDAB1C587D310082E742 /* SpeechToTextSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A00FDAA1C587D310082E742 /* SpeechToTextSettings.swift */; };
 		7A0F95B71C23288E004C01C0 /* WatsonDeveloperCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0F95B61C23288E004C01C0 /* WatsonDeveloperCloud.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A0F95BE1C23288E004C01C0 /* WatsonDeveloperCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0F95B31C23288E004C01C0 /* WatsonDeveloperCloud.framework */; };
@@ -84,14 +89,12 @@
 		7A0F96D71C232B96004C01C0 /* PersonalityInsightsError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0F96341C232B96004C01C0 /* PersonalityInsightsError.swift */; };
 		7A0F96E81C232B96004C01C0 /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0F964B1C232B96004C01C0 /* libogg.a */; };
 		7A0F96E91C232B96004C01C0 /* libopus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0F964C1C232B96004C01C0 /* libopus.a */; };
-		7A0F96EA1C232B96004C01C0 /* ogg.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0F964E1C232B96004C01C0 /* ogg.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A0F96EB1C232B96004C01C0 /* OggHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0F964F1C232B96004C01C0 /* OggHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A0F96EC1C232B96004C01C0 /* OggHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0F96501C232B96004C01C0 /* OggHelper.m */; };
-		7A0F96ED1C232B96004C01C0 /* os_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0F96511C232B96004C01C0 /* os_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A0F96EE1C232B96004C01C0 /* opus.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0F96531C232B96004C01C0 /* opus.h */; };
 		7A0F96EF1C232B96004C01C0 /* opus_defines.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0F96541C232B96004C01C0 /* opus_defines.h */; };
 		7A0F96F01C232B96004C01C0 /* opus_header.c in Sources */ = {isa = PBXBuildFile; fileRef = 7A0F96551C232B96004C01C0 /* opus_header.c */; };
-		7A0F96F11C232B96004C01C0 /* opus_header.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0F96561C232B96004C01C0 /* opus_header.h */; };
+		7A0F96F11C232B96004C01C0 /* opus_header.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0F96561C232B96004C01C0 /* opus_header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A0F96F21C232B96004C01C0 /* opus_multistream.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0F96571C232B96004C01C0 /* opus_multistream.h */; };
 		7A0F96F31C232B96004C01C0 /* opus_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0F96581C232B96004C01C0 /* opus_types.h */; };
 		7A0F96F41C232B96004C01C0 /* OpusHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0F96591C232B96004C01C0 /* OpusHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -203,6 +206,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4B16E7B91CA2F9A500CC1F98 /* config_types.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config_types.h.in; sourceTree = "<group>"; };
+		4B16E7BA1CA2F9A500CC1F98 /* ogg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ogg.h; sourceTree = "<group>"; };
+		4B16E7BB1CA2F9A500CC1F98 /* os_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_types.h; sourceTree = "<group>"; };
 		7A00FDAA1C587D310082E742 /* SpeechToTextSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpeechToTextSettings.swift; path = WatsonDeveloperCloud/SpeechToText/Models/SpeechToTextSettings.swift; sourceTree = "<group>"; };
 		7A0F95B31C23288E004C01C0 /* WatsonDeveloperCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WatsonDeveloperCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A0F95B61C23288E004C01C0 /* WatsonDeveloperCloud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WatsonDeveloperCloud.h; sourceTree = "<group>"; };
@@ -301,10 +307,8 @@
 		7A0F96381C232B96004C01C0 /* PersonalityInsightsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalityInsightsTests.swift; sourceTree = "<group>"; };
 		7A0F964B1C232B96004C01C0 /* libogg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libogg.a; sourceTree = "<group>"; };
 		7A0F964C1C232B96004C01C0 /* libopus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopus.a; sourceTree = "<group>"; };
-		7A0F964E1C232B96004C01C0 /* ogg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ogg.h; sourceTree = "<group>"; };
 		7A0F964F1C232B96004C01C0 /* OggHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OggHelper.h; sourceTree = "<group>"; };
 		7A0F96501C232B96004C01C0 /* OggHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OggHelper.m; sourceTree = "<group>"; };
-		7A0F96511C232B96004C01C0 /* os_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_types.h; sourceTree = "<group>"; };
 		7A0F96531C232B96004C01C0 /* opus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus.h; sourceTree = "<group>"; };
 		7A0F96541C232B96004C01C0 /* opus_defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_defines.h; sourceTree = "<group>"; };
 		7A0F96551C232B96004C01C0 /* opus_header.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = opus_header.c; sourceTree = "<group>"; };
@@ -720,10 +724,11 @@
 		7A0F964D1C232B96004C01C0 /* ogg */ = {
 			isa = PBXGroup;
 			children = (
-				7A0F964E1C232B96004C01C0 /* ogg.h */,
+				4B16E7B91CA2F9A500CC1F98 /* config_types.h.in */,
+				4B16E7BA1CA2F9A500CC1F98 /* ogg.h */,
+				4B16E7BB1CA2F9A500CC1F98 /* os_types.h */,
 				7A0F964F1C232B96004C01C0 /* OggHelper.h */,
 				7A0F96501C232B96004C01C0 /* OggHelper.m */,
-				7A0F96511C232B96004C01C0 /* os_types.h */,
 			);
 			path = ogg;
 			sourceTree = "<group>";
@@ -885,16 +890,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A0F96EE1C232B96004C01C0 /* opus.h in Headers */,
-				7A0F96EA1C232B96004C01C0 /* ogg.h in Headers */,
-				7A0F96F31C232B96004C01C0 /* opus_types.h in Headers */,
-				7A0F96F11C232B96004C01C0 /* opus_header.h in Headers */,
-				7A0F96EB1C232B96004C01C0 /* OggHelper.h in Headers */,
-				7A0F96ED1C232B96004C01C0 /* os_types.h in Headers */,
-				7A0F96F21C232B96004C01C0 /* opus_multistream.h in Headers */,
-				7A0F96F41C232B96004C01C0 /* OpusHelper.h in Headers */,
-				7A0F96EF1C232B96004C01C0 /* opus_defines.h in Headers */,
 				7A0F95B71C23288E004C01C0 /* WatsonDeveloperCloud.h in Headers */,
+				7A0F96EB1C232B96004C01C0 /* OggHelper.h in Headers */,
+				7A0F96F41C232B96004C01C0 /* OpusHelper.h in Headers */,
+				4B16E7BF1CA2F9E400CC1F98 /* ogg.h in Headers */,
+				7A0F96F11C232B96004C01C0 /* opus_header.h in Headers */,
+				4B16E7BE1CA2F9A500CC1F98 /* os_types.h in Headers */,
+				4B16E7C51CA3061C00CC1F98 /* config_types.h.in in Headers */,
+				7A0F96F31C232B96004C01C0 /* opus_types.h in Headers */,
+				4B16E7C31CA2FA3D00CC1F98 /* opus_header.c in Headers */,
+				7A0F96EF1C232B96004C01C0 /* opus_defines.h in Headers */,
+				7A0F96EE1C232B96004C01C0 /* opus.h in Headers */,
+				7A0F96F21C232B96004C01C0 /* opus_multistream.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -980,6 +987,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B16E7BC1CA2F9A500CC1F98 /* config_types.h.in in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1254,6 +1262,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
@@ -1262,6 +1271,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -1284,6 +1294,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
@@ -1292,6 +1303,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
